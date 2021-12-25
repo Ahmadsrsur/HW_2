@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity_Menu">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_start"
+        android:layout_width="175dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="97dp"
+        android:text="Start Game" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:counterMaxLength="9"
+        app:counterEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:hint="ID"
+        android:layout_marginTop="48dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/menu_EDT_id"
+        android:inputType="number"
+        android:ems="10"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+</RelativeLayout>
